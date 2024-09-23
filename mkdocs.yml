@@ -1,4 +1,4 @@
-site_name: My Docs
+site_name: RootEdu
 nav:
   - Home: index.md
   - AWS: aws.md
@@ -13,15 +13,14 @@ nav:
   - GitLab: gitlab.md
 
 theme:
-  name: material
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - toc.integrate
-    - navigation.top
-    - search.suggest
-    - search.highlight
-    - content.tabs.link
-    - content.code.annotation
-    - content.code.copy
-  language: en
+  name: gitbook
+
+plugins: []
+
+extra:
+  nav:
+    sort_order: reverse
+
+repo_url: https://gitlab.com/lramage/mkdocs-gitbook-theme
+
+
