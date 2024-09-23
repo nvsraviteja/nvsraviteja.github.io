@@ -1,5 +1,5 @@
 site_name: My Docs
 nav:
   - Home: index.md
-  - Terraform: Terraform.md
+  - Terraform: /docs/Terraform.md
 
